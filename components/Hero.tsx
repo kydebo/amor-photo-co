@@ -19,7 +19,7 @@ export default function Hero() {
 
       {/* brand text */}
       <div className="relative z-10 w-full px-6 md:px-20">
-        <div className="mx-auto max-w-6xl text-center -translate-y-24 md:-translate-y-34">
+        <div className="mx-auto max-w-6xl text-center -translate-y-20 md:-translate-y-30">
           <h1 className="font-heading text-[#6B2232] text-6xl md:text-8xl lg:text-[9.5rem] font-light tracking-[0.34em] leading-none mb-6">
             AMOR
           </h1>
