@@ -15,7 +15,7 @@ export default function Home() {
     <main className="bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
       <Navbar />
       <LoveLetterIntro />
-      <div className="-mt-24">
+      <div className="mt-0">
       <Hero />
       </div>
       <PortfolioGrid />
