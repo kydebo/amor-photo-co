@@ -132,19 +132,12 @@ export default function PortfolioPage() {
           </p>
 
           <h1 className="font-heading text-[#6B2232] text-6xl md:text-8xl lg:text-9xl font-light leading-tight mb-8">
-            The Portfolio
-          </h1>
+  Portfolio
+</h1>
 
-          <p className="max-w-3xl mx-auto text-[#3A312B]/75 text-lg md:text-xl leading-loose">
-            A curated collection of love, motherhood, military homecomings, and
-            the honest moments that become heirlooms.
-          </p>
-
-          <div className="mx-auto mt-10 h-px w-36 bg-gradient-to-r from-transparent via-[#9AA6D3] to-transparent"></div>
-
-          <p className="font-hand text-[#CFA5A3] text-4xl md:text-5xl mt-10">
-            preserved with care
-          </p>
+<p className="max-w-2xl mx-auto text-[#3A312B]/70 text-base md:text-lg leading-loose">
+  A quiet study of love, family, and return.
+</p>
         </div>
       </section>
 
@@ -171,35 +164,22 @@ export default function PortfolioPage() {
           </div>
 
           <div>
-            <p className="uppercase tracking-[0.45em] text-xs text-[#7A8261] mb-6">
-              Curated With Intention
-            </p>
+  <p className="uppercase tracking-[0.45em] text-xs text-[#7A8261] mb-6">
+    The Work
+  </p>
 
-            <h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light leading-tight mb-8">
-              One portfolio, many seasons of love.
-            </h2>
+  <h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light leading-tight mb-8">
+    Soft light. Real feeling. Lasting images.
+  </h2>
 
-            <p className="text-[#3A312B]/75 leading-loose mb-8">
-              This portfolio brings together the images that best represent Amor
-              Photo Co. — quiet emotion, soft light, honest connection, and the
-              kind of photographs that feel like memory.
-            </p>
+  <p className="text-[#3A312B]/70 leading-loose mb-10 max-w-xl">
+    Wedding, motherhood, couples, family, and military homecoming photography in Virginia.
+  </p>
 
-            <p className="text-[#3A312B]/75 leading-loose mb-10">
-              Rather than separating each story into categories, this collection
-              is designed to be experienced as one continuous visual love letter:
-              weddings, couples, motherhood, military homecomings, and the
-              beautifully ordinary moments in between.
-            </p>
-
-            <p className="font-hand text-[#CFA5A3] text-4xl md:text-5xl mb-10">
-              honest, timeless, and deeply yours
-            </p>
-
-            <LuxuryButton href="/contact" variant="olive">
-              Begin the Inquiry
-            </LuxuryButton>
-          </div>
+  <LuxuryButton href="/contact" variant="olive">
+    Inquire
+  </LuxuryButton>
+</div>
         </div>
       </section>
 
@@ -212,17 +192,12 @@ export default function PortfolioPage() {
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <p className="uppercase tracking-[0.45em] text-xs text-[#7A8261] mb-5">
-              Featured Gallery
-            </p>
+  Selected Work
+</p>
 
-            <h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light mb-7">
-              The images that tell the story.
-            </h2>
-
-            <p className="max-w-2xl mx-auto text-[#3A312B]/70 leading-loose">
-              A single curated gallery of the photographs used to represent the
-              heart, feeling, and visual direction of Amor Photo Co.
-            </p>
+<h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light">
+  A considered portfolio.
+</h2>
           </div>
 
  <div className="grid gap-10">
@@ -320,22 +295,16 @@ export default function PortfolioPage() {
       {/* CLOSING CTA */}
       <section className="bg-[#F8F3EB] px-6 md:px-16 py-28 text-center">
         <p className="uppercase tracking-[0.45em] text-xs text-[#7A8261] mb-5">
-          Ready When You Are
-        </p>
+  Availability
+</p>
 
-        <h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light mb-8">
-          Let’s preserve what this season feels like.
-        </h2>
+<h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light mb-8">
+  Now booking select sessions.
+</h2>
 
-        <p className="max-w-2xl mx-auto text-[#3A312B]/70 leading-loose mb-12">
-          Amor Photo Co. accepts a limited number of weddings, sessions, and
-          military homecomings each season to ensure every gallery is created
-          with care.
-        </p>
-
-        <LuxuryButton href="/contact" variant="periwinkle">
-          Begin Your Story
-        </LuxuryButton>
+<LuxuryButton href="/contact" variant="periwinkle">
+  Begin an Inquiry
+</LuxuryButton>
       </section>
 
       <Footer />
