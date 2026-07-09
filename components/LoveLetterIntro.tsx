@@ -23,38 +23,25 @@ export default function LoveLetterIntro() {
 
       {/* love letter text */}
       <div className="relative z-10 max-w-4xl mx-auto text-center animate-fadeUp pt-28 md:pt-32">
-        <p className="font-hand text-[#6B2232] text-3xl md:text-4xl lg:text-5xl leading-[1.45] mb-10">
-          To the lovers, the dreamers,
-          <br />
-          the mothers, the quiet souls...
-        </p>
+  <p className="uppercase tracking-[0.5em] text-[10px] text-[#7A8261] mb-10">
+    Amor Photo Co.
+  </p>
 
-        <p className="font-hand text-[#6B2232]/75 text-2xl md:text-3xl lg:text-4xl leading-[1.75] mb-10">
-          Thank you for believing in beauty, in connection,
-          <br className="hidden md:block" />
-          and in the moments that become memory.
-          <br className="hidden md:block" />
-          These are the stories I am honored to preserve —
-          <br className="hidden md:block" />
-          honest, timeless, and deeply yours.
-        </p>
+  <p className="font-heading text-[#6B2232] text-5xl md:text-7xl lg:text-8xl font-light leading-tight mb-10">
+    Love, held still.
+  </p>
 
-        <p className="font-hand text-[#6B2232] text-4xl mb-7">♡</p>
+  <p className="max-w-2xl mx-auto text-[#3A312B]/70 text-base md:text-lg leading-loose mb-12">
+    Wedding, motherhood, family, and military homecoming photography in Virginia.
+  </p>
 
-        <p className="font-hand text-[#6B2232]/75 text-2xl md:text-3xl leading-tight">
-          xo,
-          <br />
-          kyra amor
-        </p>
-
-        <a
-          href="#hero"
-          className="inline-block mt-14 uppercase tracking-[0.5em] text-[11px] text-[#6B2232] hover:text-[#CFA5A3] transition duration-500"
-        >
-          Enter the Story
-          <span className="block mt-4 text-lg">⌄</span>
-        </a>
-      </div>
+  <a
+    href="#hero"
+    className="inline-block uppercase tracking-[0.5em] text-[11px] text-[#6B2232] hover:text-[#CFA5A3] transition duration-500"
+  >
+    Enter
+  </a>
+</div>
 
       {/* soft fade into hero */}
       <div className="absolute bottom-[-1px] left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#F8F3EB] pointer-events-none"></div>

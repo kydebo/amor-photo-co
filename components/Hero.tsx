@@ -34,9 +34,9 @@ export default function Hero() {
             <div className="h-px w-20 md:w-32 bg-[#7A8261]/45"></div>
           </div>
 
-          <p className="font-hand text-[#CFA5A3] text-2xl md:text-3xl mb-8">
-            Love, in its truest light.
-          </p>
+          <p className="uppercase tracking-[0.35em] text-[11px] md:text-xs text-[#CFA5A3] mb-10">
+  Virginia photographer for love, motherhood, and homecoming
+</p>
 
           <a
             href="#portfolio"
