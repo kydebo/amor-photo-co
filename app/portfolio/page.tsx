@@ -63,6 +63,56 @@ const portfolioImages = [
     alt: "Honest timeless photography by Amor Photo Co.",
     size: "portrait",
   },
+    {
+    image: "/images/portfolio/photo-13.jpg",
+    alt: "Heirloom editorial photography by Amor Photo Co.",
+    size: "portrait",
+  },
+  {
+    image: "/images/portfolio/photo-14.jpg",
+    alt: "Romantic storytelling photography by Amor Photo Co.",
+    size: "wide",
+  },
+  {
+    image: "/images/portfolio/photo-15.jpg",
+    alt: "Soft emotional photography by Amor Photo Co.",
+    size: "portrait",
+  },
+  {
+    image: "/images/portfolio/photo-16.jpg",
+    alt: "Timeless Virginia photography by Amor Photo Co.",
+    size: "large",
+  },
+    {
+    image: "/images/portfolio/photo-17.jpg",
+    alt: "Heirloom editorial photography by Amor Photo Co.",
+    size: "portrait",
+  },
+  {
+    image: "/images/portfolio/photo-18.jpg",
+    alt: "Romantic storytelling photography by Amor Photo Co.",
+    size: "wide",
+  },
+  {
+    image: "/images/portfolio/photo-19.jpg",
+    alt: "Soft emotional photography by Amor Photo Co.",
+    size: "portrait",
+  },
+  {
+    image: "/images/portfolio/photo-20.jpg",
+    alt: "Timeless Virginia photography by Amor Photo Co.",
+    size: "large",
+  },
+    {
+    image: "/images/portfolio/photo-21.jpg",
+    alt: "Heirloom editorial photography by Amor Photo Co.",
+    size: "portrait",
+  },
+  {
+    image: "/images/portfolio/photo-22.jpg",
+    alt: "Romantic storytelling photography by Amor Photo Co.",
+    size: "wide",
+  },
 ];
 
 export default function PortfolioPage() {
@@ -175,35 +225,96 @@ export default function PortfolioPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-5 auto-rows-[260px]">
-            {portfolioImages.map((item, index) => (
-              <div
-                key={item.image}
-                className={`group relative overflow-hidden bg-[#E8DED3] ${
-                  item.size === "large"
-                    ? "md:col-span-2 md:row-span-2"
-                    : item.size === "wide"
-                    ? "md:col-span-2"
-                    : ""
-                }`}
-              >
-                <img
-                  src={item.image}
-                  alt={item.alt}
-                  className="h-full w-full object-cover transition duration-[1600ms] ease-out group-hover:scale-105"
-                />
+ <div className="grid gap-10">
+  <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-6 items-stretch">
+    <div className="h-[640px] overflow-hidden">
+      <img src="/images/portfolio/photo-1.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+    </div>
 
-                <div className="absolute inset-0 bg-[#3A312B]/0 group-hover:bg-[#3A312B]/10 transition duration-700"></div>
-
-                <div className="absolute bottom-5 left-5 right-5 opacity-0 group-hover:opacity-100 transition duration-700">
-                  <p className="uppercase tracking-[0.35em] text-[9px] text-[#F8F3EB] drop-shadow-[0_6px_16px_rgba(58,49,43,0.5)]">
-                    Amor Photo Co. / {String(index + 1).padStart(2, "0")}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+    <div className="grid gap-6">
+      {[2, 3].map((num) => (
+        <div key={num} className="h-[307px] overflow-hidden">
+          <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
         </div>
+      ))}
+    </div>
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-6">
+    {[4, 5, 6].map((num) => (
+      <div key={num} className="h-[430px] overflow-hidden">
+        <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+      </div>
+    ))}
+  </div>
+
+  <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-6 items-stretch">
+    <div className="grid gap-6">
+      {[7, 8].map((num) => (
+        <div key={num} className="h-[307px] overflow-hidden">
+          <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+        </div>
+      ))}
+    </div>
+
+    <div className="h-[640px] overflow-hidden">
+      <img src="/images/portfolio/photo-9.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+    </div>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-6">
+    {[10, 11].map((num) => (
+      <div key={num} className="h-[540px] overflow-hidden">
+        <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+      </div>
+    ))}
+  </div>
+
+  <div className="h-[680px] overflow-hidden">
+    <img src="/images/portfolio/photo-12.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-6">
+    {[13, 14, 15].map((num) => (
+      <div key={num} className="h-[430px] overflow-hidden">
+        <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+      </div>
+    ))}
+  </div>
+
+  <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-6 items-stretch">
+    <div className="h-[640px] overflow-hidden">
+      <img src="/images/portfolio/photo-16.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+    </div>
+
+    <div className="grid gap-6">
+      {[17, 18].map((num) => (
+        <div key={num} className="h-[307px] overflow-hidden">
+          <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-6">
+    {[19, 20].map((num) => (
+      <div key={num} className="h-[540px] overflow-hidden">
+        <img src={`/images/portfolio/photo-${num}.jpg`} alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+      </div>
+    ))}
+  </div>
+
+  <div className="grid md:grid-cols-[0.85fr_1.15fr] gap-6 items-stretch">
+    <div className="h-[560px] overflow-hidden">
+      <img src="/images/portfolio/photo-21.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+    </div>
+
+    <div className="h-[560px] overflow-hidden">
+      <img src="/images/portfolio/photo-22.jpg" alt="Portfolio image by Amor Photo Co." className="h-full w-full object-cover" />
+    </div>
+  </div>
+</div>
+</div>
       </section>
 
       {/* CLOSING CTA */}
