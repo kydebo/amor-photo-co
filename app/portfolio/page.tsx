@@ -122,7 +122,7 @@ export default function PortfolioPage() {
 
       {/* PAGE HERO */}
       <section className="relative min-h-[78vh] flex items-center justify-center px-6 md:px-16 stationery-bg overflow-hidden">
-        <div className="absolute top-24 left-8 font-hand text-[#CFA5A3]/20 text-8xl md:text-9xl hidden md:block">
+        <div className="absolute top-24 left-8 font-hand text-[#CFA5A3]/20 text-6xl md:text-7xl hidden md:block">
           portfolio
         </div>
 
@@ -131,7 +131,7 @@ export default function PortfolioPage() {
             Amor Photo Co.
           </p>
 
-          <h1 className="font-heading text-[#6B2232] text-6xl md:text-8xl lg:text-9xl font-light leading-tight mb-8">
+          <h1 className="font-heading text-[#6B2232] text-5xl md:text-7xl lg:text-8xl font-light leading-tight mb-8">
   Portfolio
 </h1>
 
@@ -168,7 +168,7 @@ export default function PortfolioPage() {
     The Work
   </p>
 
-  <h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light leading-tight mb-8">
+  <h2 className="font-heading text-[#6B2232] text-4xl md:text-6xl font-light leading-tight mb-8">
     Soft light. Real feeling. Lasting images.
   </h2>
 
@@ -185,7 +185,7 @@ export default function PortfolioPage() {
 
       {/* SINGLE EDITORIAL GALLERY */}
       <section className="relative bg-[#FBF7F0] px-6 md:px-16 py-32 overflow-hidden">
-        <div className="absolute bottom-12 right-8 font-hand text-[#9AA6D3]/20 text-8xl md:text-9xl hidden md:block">
+        <div className="absolute bottom-12 right-8 font-hand text-[#9AA6D3]/20 text-5xl md:text-7xl hidden md:block">
           heirloom
         </div>
 
@@ -195,7 +195,7 @@ export default function PortfolioPage() {
   Selected Work
 </p>
 
-<h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light">
+<h2 className="font-heading text-[#6B2232] text-4xl md:text-6xl font-light">
   A considered portfolio.
 </h2>
           </div>
@@ -298,7 +298,7 @@ export default function PortfolioPage() {
   Availability
 </p>
 
-<h2 className="font-heading text-[#6B2232] text-5xl md:text-7xl font-light mb-8">
+<h2 className="font-heading text-[#6B2232] text-4xl md:text-6xl font-light mb-8">
   Now booking select sessions.
 </h2>
 
