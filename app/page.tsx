@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
+    <main className="site-scale-down bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
       <Navbar />
       <LoveLetterIntro />
       <div className="mt-0">

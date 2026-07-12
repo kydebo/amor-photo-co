@@ -4,7 +4,7 @@ import LuxuryButton from "@/components/LuxuryButton";
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
+    <main className="site-scale-down bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
       <Navbar />
 
       <section className="relative min-h-[78vh] flex items-center justify-center px-6 md:px-16 stationery-bg overflow-hidden">

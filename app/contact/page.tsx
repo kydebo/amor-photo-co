@@ -13,7 +13,7 @@ const sessionTypes = [
 
 export default function ContactPage() {
   return (
-    <main className="bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
+    <main className="site-scale-down bg-[#F8F3EB] text-[#3A312B] font-body overflow-hidden">
       <Navbar />
 
       {/* PAGE HERO */}
