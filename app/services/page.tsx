@@ -115,7 +115,7 @@ export default function ServicesPage() {
             Services
           </p>
 
-          <h1 className="font-heading text-[#6B2232] text-6xl md:text-8xl lg:text-9xl font-light leading-tight mb-8">
+          <h1 className="font-heading text-[#6B2232] text-4xl md:text-6xl lg:text-7xl font-light leading-tight mb-8">
             Collections for every season of love.
           </h1>
 

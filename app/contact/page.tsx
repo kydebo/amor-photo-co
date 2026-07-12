@@ -27,7 +27,7 @@ export default function ContactPage() {
             Contact Amor Photo Co.
           </p>
 
-          <h1 className="font-heading text-[#6B2232] text-6xl md:text-7xl lg:text-8xl font-light leading-tight mb-8">
+          <h1 className="font-heading text-[#6B2232] text-4xl md:text-5xl lg:text-7xl font-light leading-tight mb-8">
             Tell me what this season means to you.
           </h1>
 
