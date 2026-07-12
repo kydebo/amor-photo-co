@@ -34,17 +34,17 @@ export default function AboutPage() {
 
       <section className="px-6 md:px-16 py-32 bg-[#F8F3EB]">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-[0.85fr_1.15fr] gap-16 items-center">
-          <div className="relative">
-            <div className="absolute -top-5 -left-5 h-full w-full border border-[#9AA6D3]/60"></div>
+         <div className="relative -mx-6 md:mx-0">
+  <div className="hidden md:block absolute -top-5 -left-5 h-full w-full border border-[#9AA6D3]/60"></div>
 
-            <div className="relative bg-[#FBF7F0] border border-[#E8DED3] p-4 shadow-[0_30px_80px_rgba(58,49,43,0.08)]">
-              <img
-  src="/images/about.jpg"
-  alt="Ky of Amor Photo Co."
-  className="h-[850px] w-full object-cover"
-/>
-            </div>
-          </div>
+  <div className="relative bg-[#FBF7F0] border-y md:border border-[#E8DED3] p-0 md:p-4 shadow-[0_30px_80px_rgba(58,49,43,0.08)]">
+    <img
+      src="/images/about.jpg"
+      alt="Ky of Amor Photo Co."
+      className="h-[560px] md:h-[850px] w-full object-cover object-top"
+    />
+  </div>
+</div>
 
           <div>
             <p className="uppercase tracking-[0.45em] text-xs text-[#7A8261] mb-6">
