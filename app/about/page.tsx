@@ -39,10 +39,10 @@ export default function AboutPage() {
 
             <div className="relative bg-[#FBF7F0] border border-[#E8DED3] p-4 shadow-[0_30px_80px_rgba(58,49,43,0.08)]">
               <img
-                src="/images/about.jpg"
-                alt="Ky of Amor Photo Co."
-                className="h-[650px] w-full object-cover"
-              />
+  src="/images/about.jpg"
+  alt="Ky of Amor Photo Co."
+  className="h-[850px] w-full object-cover"
+/>
             </div>
           </div>
 
